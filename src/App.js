@@ -5,6 +5,7 @@ import About from './components/About';
 import Work from './components/Work';
 import MouseAura from './components/Mouse/MouseAura';
 import Layout from './components/Layout'
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='work' element={<Work />} />
         </Route>
       </Routes>
+      <Analytics />
     </>
   );
 }
