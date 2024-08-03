@@ -1,0 +1,84 @@
+.work-page {
+    .text-zone {
+        width: 1000%;
+        margin-left: 20%;
+        position: absolute;
+        left: 10%;
+        top: 25%;
+        transform: translateY(-50%);
+        width: 35%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
+        margin-top: 10%;
+
+        h1 {
+            font-size: 48px;
+        }
+
+        p {
+            font-size: 20px;
+            color: #fff;
+            font-family: "Inter-Regular";
+            font-weight: 300;
+            max-width: fit-content;
+            animation: pulse 1s;
+            margin-top: 0;
+            text-align: left;
+
+            &:nth-of-type(1) {
+                animation-delay: 1.7s;
+            }
+
+            &:nth-of-type(2) {
+                animation-delay: 1.8s;
+            }
+
+            &:nth-of-type(3) {
+                animation-delay: 1.9s;
+            }
+        }
+
+        .experience-box {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            border-radius: 10px;
+            color: white;
+            text-align: left;
+
+            h2 {
+                font-size: 36px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            h3 {
+                font-size: 20px;
+                margin-top: 0px;
+                margin-bottom: 5px;
+            }
+
+            p {
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+
+            .raconteur-logo {
+                position: absolute;
+                border-radius: 10px;
+                top: 20px;
+                right: 20px;
+                width: 69px; 
+                height: auto;
+                z-index: 10;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+@keyframes hoverEffect {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(5px, -5px); }
+    50% { transform: translate(0, -10px); }
+    75% { transform: translate(-5px, -5px); }
+    100% { transform: translate(0, 0); }
+}
+
+.home-logo {
+    width: 400px; // change size
+    height: auto;
+    animation: hoverEffect 3s ease-in-out infinite;
+    margin-top: 2%;
+    margin-left: 45%;
+}
+
+.logo-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.logoc {
+    width: 100px;
+    height: auto;
+    animation: hoverEffect 3s ease-in-out infinite;
+}
